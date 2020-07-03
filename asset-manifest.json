@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/smbArkaden/static/css/main.73e78f0f.chunk.css",
-    "main.js": "/smbArkaden/static/js/main.c436eb87.chunk.js",
-    "main.js.map": "/smbArkaden/static/js/main.c436eb87.chunk.js.map",
+    "main.js": "/smbArkaden/static/js/main.2b7ab54e.chunk.js",
+    "main.js.map": "/smbArkaden/static/js/main.2b7ab54e.chunk.js.map",
     "runtime-main.js": "/smbArkaden/static/js/runtime-main.58f3c1d9.js",
     "runtime-main.js.map": "/smbArkaden/static/js/runtime-main.58f3c1d9.js.map",
     "static/js/2.a73f7bfc.chunk.js": "/smbArkaden/static/js/2.a73f7bfc.chunk.js",
     "static/js/2.a73f7bfc.chunk.js.map": "/smbArkaden/static/js/2.a73f7bfc.chunk.js.map",
     "index.html": "/smbArkaden/index.html",
-    "precache-manifest.d794085206423892f69a85b5dd9ca72a.js": "/smbArkaden/precache-manifest.d794085206423892f69a85b5dd9ca72a.js",
+    "precache-manifest.c9e2e2ac05746ec39a65aa69614378a8.js": "/smbArkaden/precache-manifest.c9e2e2ac05746ec39a65aa69614378a8.js",
     "service-worker.js": "/smbArkaden/service-worker.js",
     "static/css/main.73e78f0f.chunk.css.map": "/smbArkaden/static/css/main.73e78f0f.chunk.css.map",
     "static/js/2.a73f7bfc.chunk.js.LICENSE.txt": "/smbArkaden/static/js/2.a73f7bfc.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.58f3c1d9.js",
     "static/js/2.a73f7bfc.chunk.js",
     "static/css/main.73e78f0f.chunk.css",
-    "static/js/main.c436eb87.chunk.js"
+    "static/js/main.2b7ab54e.chunk.js"
   ]
 }
