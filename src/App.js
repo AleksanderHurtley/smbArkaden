@@ -20,7 +20,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/games" component={Games} />
               <Route path="/about" component={About} />
-              <Route component={NoMatch} />
+              <Route component={Home} />
             </Switch>
           </Router>
         </Layout>
