@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import { Home } from './Home'
 import { About } from './About'
 import { Games } from './Games'
@@ -17,9 +17,9 @@ class App extends Component {
         <Layout>
           <Router>
             <Switch>
-              <Route path="/smbArkaden/" component={Home} />
-              <Route path="/smbArkaden/games" component={Games} />
-              <Route path="/smbArkaden/about" component={About} />
+              <Route exact path="/" component={Home} />
+              <Route path="/games" component={Games} />
+              <Route path="/about" component={About} />
               <Route component={NoMatch} />
             </Switch>
           </Router>
