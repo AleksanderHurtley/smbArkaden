@@ -17,9 +17,9 @@ class App extends Component {
         <Layout>
           <Router>
             <Switch>
-              <Route path="/" component={Home} />
-              <Route path="/games" component={Games} />
-              <Route path="/about" component={About} />
+              <Route path="/smbArkaden/" component={Home} />
+              <Route path="/smbArkaden/games" component={Games} />
+              <Route path="/smbArkaden/about" component={About} />
               <Route component={NoMatch} />
             </Switch>
           </Router>
