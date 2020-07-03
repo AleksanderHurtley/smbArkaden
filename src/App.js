@@ -20,7 +20,7 @@ class App extends Component {
               <Route exact path="https://aleksanderhurtley.github.io/smbArkaden/" component={Home} />
               <Route path="https://aleksanderhurtley.github.io/smbArkaden/games" component={Games} />
               <Route path="https://aleksanderhurtley.github.io/smbArkaden/about" component={About} />
-              <Route component={Home} />
+              <Route component={NoMatch} />
             </Switch>
           </Router>
         </Layout>
