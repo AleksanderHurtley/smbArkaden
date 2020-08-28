@@ -1,0 +1,35 @@
+body {
+
+}
+
+h1 {
+  color: rgb(67, 23, 117);
+  font-family: "MyFont";
+  text-align: center;
+}
+
+p {
+  color: rgb(67, 23, 117);
+  font-family: "MyFont";
+  text-align: center;
+}
+
+.enterPicture {
+  display: block;
+  margin: 0 auto;
+  height: 450px;
+  width: 500px;
+}
+
+.gameBanner {
+  display: block;
+  padding-top: 35px;
+  margin: 0 auto;
+  height: 200px;
+  width: 100%;
+}
+
+/* @font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(../fonts/arcadeFont.ttf);
+} */
