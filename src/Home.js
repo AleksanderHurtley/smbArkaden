@@ -13,7 +13,7 @@ export const Home = () => (
     </p>
     <container>
       <div>
-          <Link to='/games'><img className="enterPicture" src={bilde}/></Link>
+          <Link to='/games'><img className="enterPicture" alt="Home" src={bilde}/></Link>
       </div>
     </container>
   </div> 

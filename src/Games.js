@@ -10,8 +10,8 @@ export const Games = () => (
     <div>
       <ColorFilter></ColorFilter>
       <h1>Arcade Hall</h1>
-      <img className='gameBanner' src={tetrisbanner}></img>
-      <img className='gameBanner' src={sinusbanner}></img>
-      <img className='gameBanner' src={scavengerbanner}></img>
+      <img className='gameBanner' alt="Tetirs" src={tetrisbanner}></img>
+      <img className='gameBanner' alt="Sinus" src={sinusbanner}></img>
+      <img className='gameBanner' alt="Scavenger" src={scavengerbanner}></img>
     </div>
 ) 
