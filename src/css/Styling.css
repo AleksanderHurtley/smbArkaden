@@ -29,7 +29,7 @@ p {
   width: 100%;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'MyFont';
   src: local('MyFont'), url(../fonts/arcadeFont.ttf);
-}
+} */
