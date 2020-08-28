@@ -9,7 +9,7 @@ export const Home = () => (
   <div>
     <ColorFilter/>
     <h1>Welcome</h1>
-    <p><br/>Compete against you colleagues! <br/> Set a new highscore!<br/> Be the best! <br/> Beat the rest!
+    <p><br/>Compete against your colleagues! <br/> Set a new highscore!<br/> Be the best! <br/> Beat the rest!
     </p>
     <container>
       <div>
