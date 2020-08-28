@@ -6,7 +6,7 @@ import image from '../assets/fasade.jpg';
 const Styles = styled.div`
 .overlayz {
   background-color: #f803fc;
-  opacity: 0.08;
+  opacity: 0.1;
   position: fixed;
   top: 0;
   left: 0;
