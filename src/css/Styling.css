@@ -34,10 +34,39 @@ p {
 
 .gameBanner {
   display: block;
-  padding-top: 35px;
+  padding-top: 5%;
   margin: 0 auto;
   height: 200px;
-  width: 100%;
+  width: 50%;
+}
+
+.gameDiv {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.game {
+  height: 500px;
+  width: 700px;
+}
+
+.scoreboard {
+  margin-left: 50px;
+  height: 500px;
+  width: 250px;
+}
+
+.comingSoon {
+  margin-top: 10%;
+}
+
+.bannerDiv {
+  text-align: center;
+}
+
+.banner {
+  height: 200px;
+  width: 900px;
 }
 
 @font-face {

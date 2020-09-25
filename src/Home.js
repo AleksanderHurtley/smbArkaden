@@ -6,17 +6,21 @@ import { Link } from 'react-router-dom';
 import './css/Styling.css'
 import { ColorFilter } from './components/ColorFilter';
 import { Row } from 'react-bootstrap';
+import banner from './assets/banner3.png'
 
 
 export const Home = () => (
   <div className="homeDiv">
-    <h1>Welcome<br/>To<br/>SMB Arkaden</h1>
+    <div className="bannerDiv">
+        <img className="banner" src={banner}/>
+    </div>
+
     <container>
       <div className="machineDiv">
         <row className="machineRow">
-        <Link to='/games'><img className="machine" src={tetris}/></Link>
-        <Link to='/games'><img className="machine" src={scavenger}/></Link>
-        <Link to='/games'><img className="machine" src={sinous}/></Link>
+        <Link to='/tetris'><img className="machine" src={tetris}/></Link>
+        <Link to='/scavengerhunt'><img className="machine" src={scavenger}/></Link>
+        <Link to='/sinous'><img className="machine" src={sinous}/></Link>
         </row>
       </div>
     </container>

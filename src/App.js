@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import {Home as Home} from './Home';
 import {About as About}from './About';
-import { Games as Games } from './Games';
+import { Tetris as Tetris } from './Tetris';
+import {Scavengerhunt as Scavengerhunt } from './Scavengerhunt'
+import {Sinous as Sinous} from './Sinous'
 import { Navbar,Nav,NavDropdown,Form,FormControl,Button  } from 'react-bootstrap';
  
 class App extends Component {
@@ -25,7 +27,9 @@ class App extends Component {
             <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about' component={About} />
-                <Route path='/games' component={Games} />
+                <Route path='/tetris' component={Tetris} />
+                <Route path='/scavengerhunt' component={Scavengerhunt} />
+                <Route path='/sinous' component={Sinous} />
             </Switch>
           </div>
         </Router>
