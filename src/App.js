@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Navbar.Brand href="/">SMB Arkaden</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -18,7 +18,7 @@ class App extends Component {
               <Nav.Link href="/about">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Navbar>
+        </Navbar> */}
 
         <Router>
           <div>

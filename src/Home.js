@@ -7,7 +7,6 @@ import { ColorFilter } from './components/ColorFilter';
 
 export const Home = () => (
   <div>
-    <ColorFilter/>
     <h1>Welcome</h1>
     <p><br/>Compete against your colleagues! <br/> Set a new highscore!<br/> Be the best! <br/> Beat the rest!
     </p>
