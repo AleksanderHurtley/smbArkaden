@@ -2,35 +2,34 @@ body {
 
 }
 
-.background {
-  background-image: url(../assets/scoreboard.jpg);
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex: 1;
+.homeDiv {
+  margin-top: 5%;
 }
 
 h1 {
-  color: rgb(67, 23, 117);
+  color: rgb(246, 230, 248);
   font-family: "MyFont";
   text-align: center;
 }
 
 p {
-  color: rgb(67, 23, 117);
+  color: rgb(246, 230, 248);
   font-family: "MyFont";
   text-align: center;
 }
 
-.enterPicture {
-  display: block;
-  margin: 0 auto;
-  height: 450px;
-  width: 500px;
+.machine {
+  height: 500px;
+  width: 250px;
+}
+
+/* .machineRow {
+ ;
+} */
+
+.machineDiv {
+  margin-top: 5%;
+  text-align: center;
 }
 
 .gameBanner {
