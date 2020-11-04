@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "smbarkaden918def1c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

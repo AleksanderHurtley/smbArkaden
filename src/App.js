@@ -5,6 +5,7 @@ import { About }from './About';
 import { Tetris } from './Tetris';
 import { Scavengerhunt } from './Scavengerhunt'
 import { Sinous } from './Sinous'
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
  
 class App extends Component {
   render() {
@@ -32,9 +33,10 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
+        <AmplifySignOut />
       </div>
     )
   }
 }
 
-export default App;
+export default withAuthenticator(App);
