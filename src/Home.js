@@ -4,23 +4,21 @@ import scavenger from './assets/scavenger.png'
 import sinous from './assets/sinous.png'
 import { Link } from 'react-router-dom';
 import './css/Styling.css'
-import { ColorFilter } from './components/ColorFilter';
-import { Row } from 'react-bootstrap';
 import banner from './assets/banner3.png'
 
 
 export const Home = () => (
   <div className="homeDiv">
     <div className="bannerDiv">
-        <img className="banner" src={banner}/>
+        <img className="banner" alt="" src={banner}/>
     </div>
 
     <container>
       <div className="machineDiv">
         <row className="machineRow">
-        <Link to='/tetris'><img className="machine" src={tetris}/></Link>
-        <Link to='/scavengerhunt'><img className="machine" src={scavenger}/></Link>
-        <Link to='/sinous'><img className="machine" src={sinous}/></Link>
+        <Link to='/tetris'><img className="machine" alt="" src={tetris}/></Link>
+        <Link to='/scavengerhunt'><img className="machine" alt="" src={scavenger}/></Link>
+        <Link to='/sinous'><img className="machine" alt="" src={sinous}/></Link>
         </row>
       </div>
     </container>

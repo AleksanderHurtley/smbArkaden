@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import {Home as Home} from './Home';
-import {About as About}from './About';
-import { Tetris as Tetris } from './Tetris';
-import {Scavengerhunt as Scavengerhunt } from './Scavengerhunt'
-import {Sinous as Sinous} from './Sinous'
-import { Navbar,Nav,NavDropdown,Form,FormControl,Button  } from 'react-bootstrap';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Home } from './Home';
+import { About }from './About';
+import { Tetris } from './Tetris';
+import { Scavengerhunt } from './Scavengerhunt'
+import { Sinous } from './Sinous'
  
 class App extends Component {
   render() {

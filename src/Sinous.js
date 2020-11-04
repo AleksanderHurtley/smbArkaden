@@ -8,12 +8,12 @@ import sinousGameplay from './assets/sinousGameplay.png'
 
 export const Sinous = () => (
     <div>
-      <img className='gameBanner' src={sinousbanner}></img>
+      <img className='gameBanner' alt="" src={sinousbanner}></img>
       <container>
       <div className="gameDiv">
         <row>
-          <img className="game" src={sinousGameplay}/>
-          <img className="scoreboard" src={scoreboard}/>
+          <img className="game" alt="" src={sinousGameplay}/>
+          <img className="scoreboard" alt="" src={scoreboard}/>
         </row>
       </div>
     </container>
