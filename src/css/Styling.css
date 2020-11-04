@@ -69,6 +69,12 @@ p {
   width: 900px;
 }
 
+.smallContainer {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
 @font-face {
   font-family: 'MyFont';
   src: local('MyFont'), url(../fonts/arcadeFont.ttf);

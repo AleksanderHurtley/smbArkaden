@@ -5,12 +5,13 @@ import { About }from './About';
 import { Tetris } from './Tetris';
 import { Scavengerhunt } from './Scavengerhunt'
 import { Sinous } from './Sinous'
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+import { withAuthenticator } from '@aws-amplify/ui-react'
  
 class App extends Component {
   render() {
     return (
       <div className="App">
+
         {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Navbar.Brand href="/">SMB Arkaden</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -33,7 +34,7 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
-        <AmplifySignOut />
+        
       </div>
     )
   }
