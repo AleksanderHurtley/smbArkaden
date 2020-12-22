@@ -32,6 +32,23 @@ p {
   text-align: center;
 }
 
+.highScores {
+  display: block;
+  padding-top: 5%;
+  margin: 0 auto;
+  height: 150px;
+  width: 35%;
+}
+
+.input {
+  display: block;
+  padding-top: 5%;
+  padding-left: 7%;
+  margin: 0 auto;
+  height: 150px;
+  width: 50%;
+}
+
 .gameBanner {
   display: block;
   padding-top: 5%;

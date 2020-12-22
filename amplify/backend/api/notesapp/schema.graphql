@@ -1,0 +1,12 @@
+type Note @model {
+  id: ID!
+  name: String!
+  description: String
+}
+
+type HighScore @model {
+  id: ID!
+  name: String!
+  game: String!
+  score: Int!
+}

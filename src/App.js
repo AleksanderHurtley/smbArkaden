@@ -5,6 +5,7 @@ import { About }from './About';
 import { Tetris } from './Tetris';
 import { Scavengerhunt } from './Scavengerhunt'
 import { Sinous } from './Sinous'
+import { HighScores } from './HighScores'
 import { withAuthenticator } from '@aws-amplify/ui-react'
  
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
                 <Route path='/tetris' component={Tetris} />
                 <Route path='/scavengerhunt' component={Scavengerhunt} />
                 <Route path='/sinous' component={Sinous} />
+                <Route path='/highscores' component={HighScores} />
             </Switch>
           </div>
         </Router>

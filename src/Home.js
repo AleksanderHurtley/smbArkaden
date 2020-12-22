@@ -2,6 +2,7 @@ import React from 'react';
 import tetris from './assets/tetris.png';
 import scavenger from './assets/scavenger.png'
 import sinous from './assets/sinous.png'
+import highscores from './assets/highscores.png'
 import { Link } from 'react-router-dom';
 import './css/Styling.css'
 import banner from './assets/banner3.png'
@@ -19,6 +20,9 @@ export const Home = () => (
     </div>
 
     <container>
+      <div>
+      <Link to='/highscores'><img className="highScores" alt="" src={highscores}/></Link>
+      </div>
       <div className="machineDiv">
         <row className="machineRow">
         <Link to='/tetris'><img className="machine" alt="" src={tetris}/></Link>
