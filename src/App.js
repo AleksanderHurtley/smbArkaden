@@ -6,7 +6,7 @@ import { Tetris } from './Tetris';
 import { Scavengerhunt } from './Scavengerhunt'
 import { Sinous } from './Sinous'
 import { HighScores } from './HighScores'
-import { withAuthenticator } from '@aws-amplify/ui-react'
+// import { withAuthenticator } from '@aws-amplify/ui-react'
  
 class App extends Component {
   render() {
@@ -42,4 +42,5 @@ class App extends Component {
   }
 }
 
-export default withAuthenticator(App);
+// export default withAuthenticator(App);
+export default App;
