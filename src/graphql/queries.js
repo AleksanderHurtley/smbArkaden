@@ -32,3 +32,32 @@ export const listHighScores = /* GraphQL */ `
     }
   }
 `;
+export const highScoreByScore = /* GraphQL */ `
+  query HighScoreByScore(
+    $game: String
+    $score: ModelIntKeyConditionInput
+    $sortDirection: ModelSortDirection
+    $filter: ModelHighScoreFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    highScoreByScore(
+      game: $game
+      score: $score
+      sortDirection: $sortDirection
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+    ) {
+      items {
+        id
+        name
+        game
+        score
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+`;

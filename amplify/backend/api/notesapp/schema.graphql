@@ -1,4 +1,5 @@
-type HighScore @model {
+type HighScore @model 
+  @key (name: "highScoreByScore", fields: ["game","score"], queryField: "highScoreByScore") {
   id: ID!
   name: String!
   game: String!

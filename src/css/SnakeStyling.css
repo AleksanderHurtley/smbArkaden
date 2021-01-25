@@ -1,0 +1,24 @@
+.snakeBox {
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  margin-top:75px;
+  border:1px solid white;
+}
+
+.snakes {
+  float: left;
+}
+
+.highScores {
+  float: left;
+  width: 150px;
+}
+
+.snakeScore {
+  float: left;
+}
+
+.highScoreSnake {
+  margin-left: 50%;
+}

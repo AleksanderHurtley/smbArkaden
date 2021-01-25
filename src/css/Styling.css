@@ -23,21 +23,13 @@ p {
   width: 250px;
 }
 
-/* .machineRow {
- ;
-} */
+.highScoreSnake {
+  margin-left: 50%;
+}
 
 .machineDiv {
   margin-top: 5%;
   text-align: center;
-}
-
-.highScores {
-  display: block;
-  padding-top: 5%;
-  margin: 0 auto;
-  height: 150px;
-  width: 35%;
 }
 
 .input {
@@ -90,6 +82,33 @@ p {
   position: absolute;
   top: 0%;
   right: 0%;
+}
+
+.snake {
+  float: left;
+}
+
+.snakeBox {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.snakes {
+  display: flex;
+  background-color: black;
+  color: beige;
+}
+
+.highScores {
+  display: flex;
+}
+
+.snakeScore {
+  left: 60%;
+  float: left;
 }
 
 @font-face {
